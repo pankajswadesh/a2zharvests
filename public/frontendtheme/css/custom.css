@@ -1,0 +1,6 @@
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    #slider-area #main-slider{
+        height: auto;
+    }
+}

